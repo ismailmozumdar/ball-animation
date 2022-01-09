@@ -1,0 +1,61 @@
+.math{
+    background-image: url(./img/math.png);
+    height:400px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.ball{
+    height: 50px;
+    width: 50px;
+    position: relative;
+    background-image: url(./img/ball1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: slaide 5s ease-in-out 0.5s infinite alternate;
+    animation-play-state: running;
+    position: relative;
+    left: 100px;
+    top: -68px;
+}
+@keyframes slaide {
+    0% {
+        left: 100px;
+        top: -68px;
+    }
+    30% {
+        left: 200px;
+        top:-100px;
+    }
+    100% {
+    left: 400px;
+    top:200px;
+    }
+}
+.man{
+    background-image: url(./img/man.png);
+    height: 200px;
+    width: 300px;
+    position: relative;
+    left: 400px;
+    top: 17px;
+}
+.net{
+    background-image: url(./img/net.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 150px;
+    width: 150px;
+    left: 50px;
+    top: 100px;
+}
+
+
+
+
+
+
+
